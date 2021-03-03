@@ -15,13 +15,13 @@ function myBeautifulPage() {
 
   iframe.src = "mydom2.html";
 
-  // for (let i = 0; i <= 5; i++) {
-  // const listitem = document.createElement("li");
-  // listitem.className = "fure";
-  // console.log("i is: ", i);
-  // listitem.id = `unique${i}`;
-  // console.log(listitem);
-  // }
+  for (let i = 0; i <= 5; i++) {
+    const listitem = document.createElement("li");
+    listitem.className = "fure";
+    console.log("i is: ", i);
+    listitem.id = `unique${i}`;
+    console.log(listitem);
+  }
   let i = 0;
   while (i <= 5) {
     const listitem = document.createElement("li");
