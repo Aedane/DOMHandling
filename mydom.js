@@ -17,7 +17,7 @@ function myBeautifulPage() {
 
   for (let i = 0; i <= 5; i++) {
     const listitem = document.createElement("li");
-    listitem.className = "fure";
+    listitem.className = "future";
     console.log("i is: ", i);
     listitem.id = `unique${i}`;
     console.log(listitem);
@@ -25,7 +25,7 @@ function myBeautifulPage() {
   let i = 0;
   while (i <= 5) {
     const listitem = document.createElement("li");
-    listitem.className = "fure";
+    listitem.className = "future";
     const myname = `kalimera${i}`;
     listitem.id = myname;
     listitem.textContent = myname;
@@ -34,7 +34,7 @@ function myBeautifulPage() {
     i++;
   }
 
-  const mylist = document.getElementsByClassName("fure");
+  const mylist = document.getElementsByClassName("future");
 
   wrapper.appendChild(para).appendChild(newpara).appendChild(list);
 
